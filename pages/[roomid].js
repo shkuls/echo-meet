@@ -11,9 +11,6 @@ export default function Room() {
   
   return (
     <div>
-        <p>
-            hi
-        </p>
       <Player playerId={myId} url={stream} muted playing>
     
       </Player>
